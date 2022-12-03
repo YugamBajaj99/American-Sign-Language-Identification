@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
+    
+<script src="webcam.js"></script>
+</head>
+<body>
+	<div>
+		<div>
+			<video autoplay playsinline muted id="wc" width="1800" height="800"></video>
+		</div>
+	</div>
+	<button type="button" id="0" onclick="handleButton(this)" >Capture</button>
+</body>
+
+<script src="driver.js"></script>
+</html>
